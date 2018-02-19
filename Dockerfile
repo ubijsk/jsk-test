@@ -1,5 +1,5 @@
-FROM openshift/eap70-openshift:latest
-
+FROM wildfly:latest
+#FROM openshift/eap70-openshift:latest
 RUN $JBOSS_HOME/bin/add-user.sh admin admin --silent
 
 USER root
