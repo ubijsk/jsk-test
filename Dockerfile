@@ -1,6 +1,6 @@
 FROM wildfly:latest
 #FROM openshift/eap70-openshift:latest
-RUN $JBOSS_HOME/bin/add-user.sh admin admin --silent
+#RUN $JBOSS_HOME/bin/add-user.sh admin admin --silent
 
 USER root
 #RUN cp files/*.war $JBOSS_HOME/standalone/deployments/ 
