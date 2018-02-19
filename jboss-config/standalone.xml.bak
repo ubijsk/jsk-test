@@ -127,7 +127,7 @@
                         4
                     </xa-datasource-property>
                     <xa-datasource-property name="ServerName">
-                        "db2host"
+                        db2host
                     </xa-datasource-property>
                     <xa-datasource-property name="PortNumber">
                         3446
