@@ -9,7 +9,7 @@ copy files/JSKLibertyTestProject.war $JBOSS_HOME/standalone/deployments/
 COPY jboss-config/standalone.xml $JBOSS_HOME/standalone/configuration
 COPY jboss-config/modules/ $JBOSS_HOME/modules/
 
-#XPOSE 8080 8080
-EXPOSE 9990 8080
+#EXPOSE 8080 8080
+#EXPOSE 9990 8080
 
 CMD ["/opt/eap/bin/standalone.sh", "-c", "standalone.xml", "-b", "0.0.0.0", "-bmanagement", "0.0.0.0"]
